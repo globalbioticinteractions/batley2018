@@ -1,0 +1,41 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "url" : "file:///home/jorrit/proj/globi/data/batley2018/interactions.tsv",
+  "dcterms:bibliographicCitation" : "Batley, Michael (2018): Flower-visiting records for Australian native bees. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.3521328.v4",
+  "delimiter" : "\t",
+  "headerRowCount" : 1,
+  "interactionTypeName" : "visits flowers of",
+  "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002622",
+  "locality" : "Australia",
+  "null" : [ "" ],
+  "tableSchema" : {
+    "columns" : [ {
+      "name" : "sourceTaxonName",
+      "titles" : "Bee species",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonGenus",
+      "titles" : "Plant genus",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonSpecies",
+      "titles" : "Plant species",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonFamily",
+      "titles" : "Plant family",
+      "datatype" : "string"
+    }, {
+      "name" : "Females",
+      "titles" : "Females",
+      "datatype" : "string"
+    }, {
+      "name" : "Males",
+      "titles" : "Males",
+      "datatype" : "string"
+    } ]
+  }
+}
