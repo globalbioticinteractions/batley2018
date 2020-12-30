@@ -3,7 +3,7 @@
     "@language" : "en"
   } ],
   "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-  "url" : "file:///home/jorrit/proj/globi/data/batley2018/interactions.tsv",
+  "url" : "interactions.tsv",
   "dcterms:bibliographicCitation" : "Batley, Michael (2018): Flower-visiting records for Australian native bees. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.3521328.v4",
   "delimiter" : "\t",
   "headerRowCount" : 1,
